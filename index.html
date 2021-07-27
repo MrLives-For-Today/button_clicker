@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar at the top -->
+    <nav>
+        <h1> Dojonary </h1>
+        <input type="text" name="search">
+        <button onclick="change(this)"> Login </button>
+    </nav>
+    <!-- The container holding the main and side boxes -->
+    <div class="container">
+        <!-- The main side on the left and its contents -->
+        <main>
+            <div class="defOne">
+                <div class="leftWord">
+                    <h1> ninja </h1>
+                    <h3><em> noun </em></h3>
+                    <h3> Plural: ninjas </h3>
+                    <button onclick="theAlert()"> 13 likes </button>
+                </div>
+                <div class="rightDef">
+                    <p> A practitioner skill in the <a href="https://www.lexico.com/en/definition/Japanese">
+                        Japanese</a> are of <a href="https://www.lexico.com/en/definition/ninjutsu">ninjustu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="defTwo">
+                <div class="leftWord">
+                    <h1> ninja </h1>
+                    <h3><em> noun </em></h3>
+                    <h3> Plural: ninjas </h3>
+                    <button onclick="theAlert()"> 37 likes </button>
+                </div>
+                <div class="rightDef">
+                    <p> A <a href="https://www.lexico.com/en/definition/programmer">programmer</a>
+                        who breaks down problems with <a href="https://www.lexico.com/en/definition/zen">zen</a>
+                        -like focus</p>
+                </div>
+            </div>
+        </main>
+        <!-- The aside side on the right side and its contents -->
+        <aside>
+            <div class="addition">
+                <h1> Dojonary is defined by <strong>YOU</strong> </h1>
+                <button onclick="disappear(this)"> Add Definition </button>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
